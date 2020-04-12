@@ -5,6 +5,18 @@
 
 
 
+def introduction(name)
+  puts "Hi #{name}!"
+end
+
+def introduction_with_language(name, language)
+  puts "Hi #{name}, you are using #{language} to code!"
+end 
+
+def introduction_with_language_optional(name, language = "Ruby")
+  puts "Hi #{name}, you are a #{language} programmer!"
+end
+
 
 
 
